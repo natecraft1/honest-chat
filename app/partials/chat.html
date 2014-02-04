@@ -1,0 +1,17 @@
+<div class="row">
+
+	<h1 id="intro">Hey Oleg, time for a chat?</h1>
+
+	<form role="form">
+		<div class="form-group">
+			<div class="form-container">
+	  		<input placeholder="Message..." ng-model="newMessage" type="text" class="form-control search-query">
+	  		<button type="submit" ng-click="addMessage()">send</button>
+	  	</div>
+	  </div>
+	</form>
+
+	<div id="messages" ng-show="messages" class="col-md-2 col-md-offset-5">
+	    <p class="chat-text" ng-repeat="message in messages | orderByPriority | reverse">{{message.text}}</p>
+	</div>
+</div>
