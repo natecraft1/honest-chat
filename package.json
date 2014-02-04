@@ -1,0 +1,25 @@
+{
+  "name": "honestchat",
+  "version": "0.0.0",
+  "description": "not much to go on there",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natecraft1/honest-chat.git"
+  },
+  "author": "natecraft1",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/natecraft1/honest-chat/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  }
+}
